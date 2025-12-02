@@ -1,0 +1,19 @@
+{
+  "name": "Android Development",
+  "image": "mcr.microsoft.com/devcontainers/java:17",
+  "features": {
+    "ghcr.io/devcontainers/features/android:1": {
+      "jdk-version": "17",
+      "android-version": "34"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "vscjava.vscode-java-pack",
+        "mathiasfrohlich.kotlin"
+      ]
+    }
+  },
+  "postCreateCommand": "cd android_app && gradle wrapper"
+}
