@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Remote Device Manager</string>
+    <string name="service_running">Service is Running...</string>
+    <string name="stop_service">Stop Service</string>
+    <string name="chat_id_hint">Enter Telegram Chat ID</string>
+    <string name="bot_token_hint">Enter Bot Token</string>
+    <string name="start_service">Start Service</string>
+</resources>
